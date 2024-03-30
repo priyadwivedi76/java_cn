@@ -7,7 +7,7 @@ public class fractionSolve {
 
         f1.setNumerator(12);
         int d=f1.getDenominator();
-        System.out.println();
+        System.out.println(d);
         f1.print();
 
         f1.setNumerator(10);
@@ -27,6 +27,7 @@ public class fractionSolve {
         fraction f4=fraction.Add(f1,f3);
         f1.print();
         f3.print();
+        f4.print();
     }
 }
 
@@ -52,15 +53,15 @@ class fraction{
     }
 
     private void simplify(){
-        int gcd=2;
+        int gcd=1;
         int small=Math.min(numerator,denominator);
         for(int i=2;i<=small;i++){
             if(numerator%i==0 && denominator%i==0){
                 gcd=i;
             }
         }
-        numerator=numerator%gcd;
-        denominator=denominator%gcd;
+        numerator=numerator/gcd;
+        denominator=denominator/gcd;
     }
 
     public void setNumerator(int n){
