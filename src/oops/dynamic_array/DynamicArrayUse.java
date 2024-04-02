@@ -1,5 +1,7 @@
 package oops.dynamic_array;
 
+import twoDArray.transverseColumn;
+
 public class DynamicArrayUse {
     public static void main(String[] args) {
         DynamicArray d=new DynamicArray();
@@ -24,29 +26,11 @@ public class DynamicArrayUse {
 class DynamicArray{
     private int data[];
     private int nextIndex;
-
+    
     //constructor
     public DynamicArray(){
         data=new int[5];
         nextIndex=0;
-    }
-
-    public void add(int element){
-        if(data.length==nextIndex){
-            restructure();
-        }
-        data[nextIndex]=element;
-        nextIndex++;
-    }
-
-    //restructure
-    public void restructure(){
-        int temp[]=data;
-        data=new int[data.length*2];
-
-        for(int i=0;i<temp.length;i++){
-            data[i]=temp[i];
-        }
     }
 
     //get element
@@ -57,18 +41,35 @@ class DynamicArray{
         return data[index];
     }
 
-    //set elements
+    //set
     public void set(int index,int element){
-        if(index<nextIndex){
-            data[index]=element;
-        }else if(index==nextIndex){
-            add(element);
-        }else{
-            return;
+        if(index<=nextIndex){
+            if(index<nextIndex){
+                data[index]=element;
+            }else{
+                add(element);
+            }
         }
     }
 
-    //empty
+    //restructure
+    public void restructure(){
+        int temp[]=data;
+        data=new int[data.length*2];
+        for(int i=0;i<temp.length;i++){
+            data[i]=temp[i];
+        }
+    }
+
+    //add
+    public void add(int element){
+        if(data.length==nextIndex){
+            restructure();
+        }
+        data[nextIndex]=element;
+    }
+
+    //isEmpty
     public boolean isEmpty(){
         if(nextIndex==0){
             return true;
@@ -77,6 +78,12 @@ class DynamicArray{
         }
     }
 
+    //size
+    public int size(){
+        return nextIndex;
+    }
+
+    //removeLast
     public int removeLast(){
         int value=data[nextIndex-1];
         data[nextIndex-1]=0;
@@ -84,8 +91,6 @@ class DynamicArray{
         return value;
     }
 
-    public int size(){
-        return nextIndex;
-    }
+    
     
 }
