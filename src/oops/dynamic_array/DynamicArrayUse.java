@@ -1,7 +1,5 @@
 package oops.dynamic_array;
 
-import twoDArray.transverseColumn;
-
 public class DynamicArrayUse {
     public static void main(String[] args) {
         DynamicArray d=new DynamicArray();
@@ -26,7 +24,7 @@ public class DynamicArrayUse {
 class DynamicArray{
     private int data[];
     private int nextIndex;
-    
+
     //constructor
     public DynamicArray(){
         data=new int[5];
@@ -67,6 +65,7 @@ class DynamicArray{
             restructure();
         }
         data[nextIndex]=element;
+        nextIndex++;
     }
 
     //isEmpty
