@@ -1,4 +1,4 @@
-package oops.student;
+package oops;
 public class studentUse {
     public static void main(String[] args) {
         //without using constructor

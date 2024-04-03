@@ -1,4 +1,4 @@
-package oops.complex;
+package oops;
 
 public class complexNum {
     public static void main(String[] args) {

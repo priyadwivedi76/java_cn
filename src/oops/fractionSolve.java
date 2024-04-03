@@ -1,4 +1,4 @@
-package oops.fraction;
+package oops;
 
 public class fractionSolve {
     public static void main(String[] args) {

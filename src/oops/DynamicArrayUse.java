@@ -1,4 +1,4 @@
-package oops.dynamic_array;
+package oops;
 
 public class DynamicArrayUse {
     public static void main(String[] args) {
