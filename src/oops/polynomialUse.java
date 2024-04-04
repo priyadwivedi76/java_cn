@@ -29,12 +29,21 @@ public class polynomialUse {
 }
 
 class Polynomial{
-    private DynamicArray coefficient;
+    private int coefficient[];
     private int degree;
 
     //constructor
     public Polynomial(){
-         coefficient=new DynamicArray();
+         coefficient=new int[1];
+         degree=0;
+    }
+
+    //print
+    public void print(){
+        for(int i=0;i<this.coefficient.length;i++){
+            System.out.print(coefficient[i]+"x^"+i+"+");
+        }
+        System.out.println();
     }
 
     //getter
@@ -48,7 +57,11 @@ class Polynomial{
     //setter
     public void setCoefficient(int degree,int coefficient){
         if(degree>=this.coefficient.length){
-            coefficient.restructure();
+            int temp[]=this.coefficient;
+            coefficient=new int[coefficient.length*2];
+            for(int i=0;i<temp.length;i++){
+            coefficient[i]=temp[i];
+        }
         }
         coefficient[degree]=coefficient;
     }
@@ -113,8 +126,8 @@ class Polynomial{
     //take input of two polynomial and give the output of new plynomial
     public static Polynomial add(Polynomial p1,Polynomial p2){
         Polynomial ans=new Polynomial();
-        int p1=p1.coefficient.length;
-        int p2=p2.coefficient.length;
+        int p1=p1.coefficient.length-1;
+        int p2=p2.coefficient.length-1;
         int len=Math.min(p1,p2);
         int i;
         for(i=0;i<=len;i++){
