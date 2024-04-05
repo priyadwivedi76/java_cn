@@ -12,6 +12,7 @@ public class polynomialUse {
         p2.setCoefficient(2,2);
         p2.setCoefficient(1,4);
         p2.setCoefficient(2,5);
+        p2.print();
 
         p1.add(p2);
         p1.print();
@@ -21,10 +22,7 @@ public class polynomialUse {
         p2.print();
         p1.print();
 
-        Polynomial p3=new Polynomial.add(p1,p2);
-        p3.print();
-        p1.print();
-        p2.print();
+
     }
 }
 
@@ -34,14 +32,15 @@ class Polynomial{
 
     //constructor
     public Polynomial(){
-         coefficient=new int[1];
-         degree=0;
+         coefficient=new int[10];
     }
 
     //print
     public void print(){
-        for(int i=0;i<this.coefficient.length;i++){
-            System.out.print(coefficient[i]+"x^"+i+"+");
+        for(int i=0;i<coefficient.length;i++){
+            if(coefficient[i]!=0){
+                System.out.print(coefficient[i]+"x^"+i+"+");
+            }
         }
         System.out.println();
     }
@@ -50,101 +49,74 @@ class Polynomial{
     public int getCoefficient(int degree){
         if(degree<this.coefficient.length){
             return coefficient[degree];
+        }else{
+            return 0;
         }
-        return 0;
     }
 
     //setter
     public void setCoefficient(int degree,int coefficient){
-        if(degree>=this.coefficient.length){
+        if(degree>this.coefficient.length-1){
             int temp[]=this.coefficient;
-            coefficient=new int[coefficient.length*2];
+            this.coefficient=new int[degree+1];
             for(int i=0;i<temp.length;i++){
-            coefficient[i]=temp[i];
+            this.coefficient[i]=temp[i];
         }
         }
-        coefficient[degree]=coefficient;
+        this.coefficient[degree]=coefficient;
     }
     //add
-    public Polynomial add(Polynomial p){
-        Polynomial ans=new Polynomial();
-        int p1=this.coefficient.length;
-        int p2=p.coefficient.length;
-        int len=Math.min(p1,p2);
-        int i;
-        for(i=0;i<=len;i++){
-            ans.setCoefficient(i, this.coefficient[i]+p.coefficient[i]);
-        }
-
-        while(i<p1){
-            ans.setCoefficient(i, this.coefficient[i]);
-        }
-
-        while(i<p2){
-            ans.setCoefficient(i, p.coefficient[i]);
-        }
-        return ans;
-    }
-
-    //subtract
-    public Polynomial subtract(Polynomial p){
-        Polynomial ans=new Polynomial();
+    public void add(Polynomial p){
         int p1=this.coefficient.length;
         int p2=p.coefficient.length;
         int len=Math.min(p1,p2);
         int i;
         for(i=0;i<len;i++){
-            ans.setCoefficient(i, this.coefficient[i]-p.coefficient[i]);
+            this.setCoefficient(i, this.coefficient[i]+p.coefficient[i]);
         }
 
         while(i<p1){
-            ans.setCoefficient(i, this.coefficient[i]);
+            this.setCoefficient(i, this.coefficient[i]);
             i++;
         }
 
         while(i<p2){
-            ans.setCoefficient(i, -p.coefficient[i]);
+            this.setCoefficient(i, p.coefficient[i]);
             i++;
         }
-        return ans;
+    }
+
+    //subtract
+    public void subtract(Polynomial p){
+        int p1=this.coefficient.length-1;
+        int p2=p.coefficient.length-1;
+        int len=Math.min(p1,p2);
+        int i;
+        for(i=0;i<len;i++){
+            this.setCoefficient(i, this.coefficient[i]-p.coefficient[i]);
+        }
+
+        while(i<p1){
+            this.setCoefficient(i, this.coefficient[i]);
+            i++;
+        }
+
+        while(i<p2){
+            this.setCoefficient(i, -p.coefficient[i]);
+            i++;
+        }
     }
 
     //multiply
-    public Polynomial multiply(Polynomial p){
-        Polynomial ans=new Polynomial();
+    public void multiply(Polynomial p){
+        int result[]=new int[coefficient.length+p.coefficient.length-1];
         for(int i=0;i<this.coefficient.length;i++){
             for(int j=0;j<p.coefficient.length;j++){
                 int termDeg=i+j;
                 int termCoefficient=this.coefficient[i]*p.coefficient[j];
-                int oldCoefficient=ans.getCoefficient(termDeg);
-                ans.setCoefficient(termDeg,termCoefficient+oldCoefficient);
+                result[termDeg]+=termCoefficient;
             }
         }
-        return ans;
+        this.coefficient=result;
     }
-
-    //take input of two polynomial and give the output of new plynomial
-    public static Polynomial add(Polynomial p1,Polynomial p2){
-        Polynomial ans=new Polynomial();
-        int p1=p1.coefficient.length-1;
-        int p2=p2.coefficient.length-1;
-        int len=Math.min(p1,p2);
-        int i;
-        for(i=0;i<=len;i++){
-            ans.setCoefficient(i, p1.coefficient[i]+p2.coefficient[i]);
-        }
-
-        while(i<=p1){
-            ans.setCoefficient(i, p1.coefficient[i]);
-            i++;
-        }
-
-        while(i<=p2){
-            ans.setCoefficient(i, p2.coefficient[i]);
-            i++;
-        }
-        return ans;
-    }
-
-
 }
