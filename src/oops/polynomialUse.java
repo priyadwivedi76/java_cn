@@ -26,7 +26,6 @@ public class polynomialUse {
         p3.print();
         p1.print();
         p2.print();
-
     }
 }
 
@@ -65,7 +64,7 @@ class Polynomial{
             this.coefficient=new int[degree+1];
             for(int i=0;i<temp.length;i++){
             this.coefficient[i]=temp[i];
-        }
+            }
         }
         this.coefficient[degree]=coefficient;
     }
