@@ -22,6 +22,10 @@ public class polynomialUse {
         p2.print();
         p1.print();
 
+        Polynomial p3=Polynomial.add(p1,p2);
+        p3.print();
+        p1.print();
+        p2.print();
 
     }
 }
@@ -118,5 +122,28 @@ class Polynomial{
             }
         }
         this.coefficient=result;
+    }
+
+    public static Polynomial add(Polynomial p1,Polynomial p2){
+        Polynomial result=new Polynomial();
+        int len1=p1.coefficient.length;
+        int len2=p2.coefficient.length;
+        int len=Math.min(len1,len2);
+        int i;
+        for(i=0;i<len;i++){
+            result.setCoefficient(i, p1.coefficient[i]+p2.coefficient[i]);
+        }
+
+        if(len<len1){
+            for(i=len;i<len1;i++){
+                result.setCoefficient(i, p1.coefficient[i]);
+            }
+        }else if(len<len2){
+            for(i=len;i<len2;i++){
+                result.setCoefficient(i, p2.coefficient[i]);
+            }  
+        }
+
+        return result;
     }
 }
