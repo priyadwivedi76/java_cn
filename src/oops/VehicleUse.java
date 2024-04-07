@@ -2,7 +2,7 @@ package oops;
 
 public class VehicleUse {
     public static void main(String[] args) {
-        Car c=new Car(10);
+        Car c=new Car(10,100);
         c.numGears=25;
         c.setMaxSpeed(10);
         c.isConvertible=true;
@@ -38,8 +38,8 @@ class Car extends Vehicle{
     int numGears;
     boolean isConvertible;
     //Car Constructor
-    public Car(int numGears){
-        super(100);
+    public Car(int numGears,int maxSpeed){
+        super(maxSpeed);
         this.numGears=numGears;
         System.out.println("Car Constructor");
     }
