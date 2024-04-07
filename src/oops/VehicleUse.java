@@ -3,11 +3,14 @@ package oops;
 public class VehicleUse {
     public static void main(String[] args) {
         Vehicle v=new Vehicle();
+        v.colour="White";
+        v.setMaxSpeed(100);
         v.print();
 
         Car c=new Car();
         c.numGears=25;
-        c.setMaxSpeed(10);;
+        c.setMaxSpeed(10);
+        c.isConvertible=true;
         c.colour="Black";
         c.printCar();
     }
@@ -37,8 +40,9 @@ class Car extends Vehicle{
     boolean isConvertible;
 
     public void printCar(){
-        System.out.println("Colour:"+colour);
-        System.out.println("Max_speed:"+getMaxSpeed());
+
+        //use of super keyword to call the inherited class and its function called print
+        super.print();
         System.out.println("numGears:"+numGears);
         System.out.println("isConvertible:"+isConvertible);
     }
