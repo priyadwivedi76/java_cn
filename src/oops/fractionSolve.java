@@ -1,7 +1,8 @@
 package oops;
 
+
 public class fractionSolve {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ZeroDenominatorException {
         fraction f1=new fraction(20,30);
         f1.print();
 
@@ -11,7 +12,7 @@ public class fractionSolve {
         f1.print();
 
         f1.setNumerator(10);
-        f1.setDenominator(30);
+        f1.setDenominator(10);
         f1.print();
 
         fraction f2=new fraction(3, 4);
@@ -37,9 +38,6 @@ class fraction{
 
     public fraction(int numerator,int denominator){
         this.numerator=numerator;
-        if(denominator==0){
-            return;
-        }
         this.denominator=denominator;
         simplify();
     }
@@ -69,7 +67,12 @@ class fraction{
         simplify();
     }
 
-    public void setDenominator(int d){
+    public void setDenominator(int d) throws ZeroDenominatorException{
+        if(d==0){
+            //Exception Handling
+            ZeroDenominatorException e=new ZeroDenominatorException();
+            throw e;
+        }
         this.denominator=d;
         simplify();
     }
@@ -94,12 +97,16 @@ class fraction{
         simplify();
     }
 
-    public static fraction Add(fraction f1,fraction f2){
+    public static fraction Add(fraction f1,fraction f2) throws ZeroDenominatorException{
         int newNum1=f1.numerator*f2.denominator+f2.numerator*f1.denominator;
         int newDeno=f1.denominator*f2.denominator;
         fraction newFraction=new fraction(newNum1,newDeno);
         return newFraction;
     }
+
+}
+
+class ZeroDenominatorException extends Exception{
 
 }
 
