@@ -1,4 +1,4 @@
-package array;
+package src.array;
 import java.util.Scanner;
 public class arrange {
     public static void main(String[] args) {
