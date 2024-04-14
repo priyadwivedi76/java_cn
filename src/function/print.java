@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 
 public class print {
-    public static void printNum(int n) {
+     static void printNum(int n) {
         for(int i=1;i<=n;i++){
             System.out.print(i+" ");
         }
