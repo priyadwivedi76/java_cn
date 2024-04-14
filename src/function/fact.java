@@ -1,4 +1,4 @@
-package function;
+package src.function;
 import java.util.Scanner;
 public class fact {
 

@@ -1,4 +1,4 @@
-package function;
+package src.function;
 
 public class prime {
     public static boolean isPrime(int n){
