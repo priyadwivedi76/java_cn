@@ -2,7 +2,7 @@ package src.game;
 import java.util.Scanner;
 import java.util.Random;
 
-public class rock_paper_scissor {
+public class RockPaperScissor{
         public static void main(String[] args) {
         Random ran=new Random();
         Scanner sc=new Scanner(System.in);
