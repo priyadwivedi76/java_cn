@@ -1,7 +1,4 @@
 package src.recursion;
-import org.w3c.dom.ls.LSOutput;
-
-import java.sql.SQLOutput;
 import java.util.Scanner;
 public class printNum {
     public static void printNumber(int n){
