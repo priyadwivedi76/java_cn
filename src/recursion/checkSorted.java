@@ -42,8 +42,20 @@ public class checkSorted {
         }
         return checkSorted2(smallArray);
     }
+
+    //approach3 -better space complexity
+    public static boolean checkSorted3(int[] arr,int startIndex){
+        if(startIndex==arr.length-1){
+            return true;
+        }
+        if(arr[startIndex]>arr[startIndex+1]){
+            return true;
+        }
+        boolean ans=checkSorted3(arr,startIndex+1);
+        return ans;
+    }
     public static void main(String[] args) {
-        int[] arr ={4,2,3,4,9};
-        System.out.println(checkSorted2(arr));
+        int[] arr ={1,2,3,4,9};
+        System.out.println(checkSorted3(arr,0));
     }
 }
