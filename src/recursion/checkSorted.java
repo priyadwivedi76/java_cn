@@ -54,8 +54,14 @@ public class checkSorted {
         boolean ans=checkSorted3(arr,startIndex+1);
         return ans;
     }
+
+    public static boolean checkSorted3(int[] arr){
+        return checkSorted3 (arr,0);
+    }
+
+
     public static void main(String[] args) {
         int[] arr ={1,2,3,4,9};
-        System.out.println(checkSorted3(arr,0));
+        System.out.println(checkSorted3(arr));
     }
 }
