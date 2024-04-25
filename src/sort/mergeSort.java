@@ -29,7 +29,7 @@ public class mergeSort {
             } else {
                 output[k++] = input[j++];
             }
-        }
+        } 
 
         //copy the elements of the first partition till mid is reached
         while(i<=midIndex){
