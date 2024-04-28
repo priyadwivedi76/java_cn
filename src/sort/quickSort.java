@@ -1,37 +1,60 @@
 package src.sort;
 
 public class quickSort {
-    public static void quickSorted(int[] input,int startindex, int endIndex){
-        if(startindex>=endIndex){
+    public static void quickSorted(int[] input, int startindex, int endIndex) {
+        if (startindex >= endIndex) {
             return;
         }
+        int pivot=partition(input,startindex,endIndex);
+        quickSorted(input,startindex,pivot-1);
+        quickSorted(input,pivot+1,endIndex);
     }
-    public static int partition(int[] input,int startIndex,int endIndex){
-        //assign first element
-        int pivot=startIndex;
 
-        //find the suitable place for pivot
+    public static int partition(int[] input, int  startIndex, int endIndex) {
+        int pivot = input[startIndex];
         int count=0;
-        for(int i=startIndex;i<endIndex;i++){
-            if(input[pivot]>=input[i]){
-                count++;
-            }
+        //find the appropriate position for pivot such that all the smaller elements compared  to pivot lies on the  left side of pivot
+        for(int i=startIndex+1;i<=endIndex;i++){
+        if(input[i]<pivot){
+            count++;
         }
-        //replace pivot at appropriate position-swap
-        int newPivot=startIndex+count;
-        int temp=input[pivot];
-        input[pivot]=input[newPivot];
-        input[newPivot]=temp;
+    }
+    int newPivot=startIndex+count;
+    //swap pivot to new index
+    input[startIndex]=input[newPivot];
+    input[newPivot]=pivot;
 
-        int i=startIndex;
-        int j=endIndex;
-        while( i>=startIndex && j<=endIndex){
-            if(input[startIndex]<=input[newPivot]){
-                i++;
-            }
-            if(input[endIndex]>=input[newPivot]){
-                j--;
-            }
-            if()
+    //collect  all the elements smaller on the left side and greater on right side
+    int i=startIndex;
+    int j=endIndex;
+    while(i<j){
+        while(i<=endIndex && input[i]<=pivot){
+            i++;
         }
+        while(input[j]>pivot){
+            j--;
+        }
+        //when the i and j have stopped iterating swap them and further execute the iteration after swapping
+        if(i<=j){
+            int temp=input[i];
+            input[i]=input[j];
+            input[j]=temp;
+            i++;
+            j--;
+        }
+    }
+    return newPivot;
+}
+
+    public static void print(int[] array){
+        for (int j : array) {
+            System.out.print(j + " ");
+        }
+    }
+
+    public static void main(String[] args) {
+        int[] array={2,3,4,5,6,1};
+        quickSorted(array,0,array.length-1);
+        print(array);
+    }
 }
