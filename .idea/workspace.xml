@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3fffbcd6-afe5-41ef-a5bf-010a00c2b695" name="Changes" comment="java">
+      <change afterPath="$PROJECT_DIR$/src/simple/operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/simple/printName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/simple/sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/simple/table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_cn.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;priyadwivedi76&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/priyadwivedi76/java_cn.git&quot;,
+    &quot;accountId&quot;: &quot;f61f8003-6f51-4af0-9579-d003d0ad6bc1&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2etw3dUjIsB1DqSCocd9ekCkJEL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.FindIPAddress.executor": "Run",
+    "Application.GuessTheNumber.executor": "Run",
+    "Application.StringtoInteger.executor": "Run",
+    "Application.addFloat.executor": "Run",
+    "Application.allIndex.executor": "Run",
+    "Application.arrange.executor": "Run",
+    "Application.average.executor": "Run",
+    "Application.checkNum.executor": "Run",
+    "Application.checkSorted.executor": "Run",
+    "Application.countZero.executor": "Run",
+    "Application.deleteChar.executor": "Run",
+    "Application.duplicateRemove.executor": "Run",
+    "Application.fibonacci.executor": "Run",
+    "Application.fionacci2.executor": "Run",
+    "Application.firstIndex.executor": "Run",
+    "Application.geometricSum.executor": "Run",
+    "Application.lastIndex.executor": "Run",
+    "Application.mergeSort.executor": "Run",
+    "Application.mulltiplication.executor": "Run",
+    "Application.multipliaction.executor": "Run",
+    "Application.multiply.executor": "Run",
+    "Application.numOfDigit.executor": "Run",
+    "Application.operator.executor": "Run",
+    "Application.pairStar.executor": "Run",
+    "Application.palindrome.executor": "Run",
+    "Application.pattern.executor": "Run",
+    "Application.pattern2.executor": "Run",
+    "Application.polynomialUse.executor": "Run",
+    "Application.power.executor": "Run",
+    "Application.practice.executor": "Run",
+    "Application.practise.executor": "Run",
+    "Application.print.executor": "Run",
+    "Application.printName.executor": "Run",
+    "Application.printNum.executor": "Run",
+    "Application.quickSort.executor": "Run",
+    "Application.replaceChar.executor": "Run",
+    "Application.replacePI.executor": "Run",
+    "Application.replaceX.executor": "Run",
+    "Application.rock_paper_scissor.executor": "Debug",
+    "Application.src.recursion.pattern.executor": "Run",
+    "Application.src.recursion.pattern2.executor": "Run",
+    "Application.sum.executor": "Run",
+    "Application.sumOfDigit.executor": "Run",
+    "Application.sumOfElements.executor": "Run",
+    "Application.varargs.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "AtomSettingsConfigurable"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.table">
+    <configuration name="addFloat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.array.addFloat" />
+      <module name="java_cn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="operator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.simple.operator" />
+      <module name="java_cn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="printName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.simple.printName" />
+      <module name="java_cn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.simple.sum" />
+      <module name="java_cn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="table" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.simple.table" />
+      <module name="java_cn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.table" />
+        <item itemvalue="Application.operator" />
+        <item itemvalue="Application.sum" />
+        <item itemvalue="Application.printName" />
+        <item itemvalue="Application.addFloat" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3fffbcd6-afe5-41ef-a5bf-010a00c2b695" name="Changes" comment="" />
+      <created>1712736983978</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712736983978</updated>
+    </task>
+    <task id="LOCAL-00001" summary="java">
+      <option name="closed" value="true" />
+      <created>1712740087257</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712740087257</updated>
+    </task>
+    <task id="LOCAL-00002" summary="java">
+      <option name="closed" value="true" />
+      <created>1712740120756</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712740120756</updated>
+    </task>
+    <task id="LOCAL-00003" summary="java">
+      <option name="closed" value="true" />
+      <created>1712740342700</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712740342701</updated>
+    </task>
+    <task id="LOCAL-00004" summary="java">
+      <option name="closed" value="true" />
+      <created>1712743164203</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712743164203</updated>
+    </task>
+    <task id="LOCAL-00005" summary="java">
+      <option name="closed" value="true" />
+      <created>1712940470642</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712940470643</updated>
+    </task>
+    <task id="LOCAL-00006" summary="java">
+      <option name="closed" value="true" />
+      <created>1712990465014</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712990465015</updated>
+    </task>
+    <task id="LOCAL-00007" summary="java">
+      <option name="closed" value="true" />
+      <created>1712996946594</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712996946595</updated>
+    </task>
+    <task id="LOCAL-00008" summary="java">
+      <option name="closed" value="true" />
+      <created>1713069814542</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713069814543</updated>
+    </task>
+    <task id="LOCAL-00009" summary="java">
+      <option name="closed" value="true" />
+      <created>1713080466560</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713080466561</updated>
+    </task>
+    <task id="LOCAL-00010" summary="java">
+      <option name="closed" value="true" />
+      <created>1713083105215</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1713083105216</updated>
+    </task>
+    <task id="LOCAL-00011" summary="java">
+      <option name="closed" value="true" />
+      <created>1713096547039</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1713096547041</updated>
+    </task>
+    <task id="LOCAL-00012" summary="java">
+      <option name="closed" value="true" />
+      <created>1713183452026</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1713183452027</updated>
+    </task>
+    <task id="LOCAL-00013" summary="java">
+      <option name="closed" value="true" />
+      <created>1713190695164</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1713190695165</updated>
+    </task>
+    <task id="LOCAL-00014" summary="java">
+      <option name="closed" value="true" />
+      <created>1713430478678</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1713430478678</updated>
+    </task>
+    <task id="LOCAL-00015" summary="java">
+      <option name="closed" value="true" />
+      <created>1713431916819</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1713431916820</updated>
+    </task>
+    <task id="LOCAL-00016" summary="java">
+      <option name="closed" value="true" />
+      <created>1713431957940</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1713431957940</updated>
+    </task>
+    <task id="LOCAL-00017" summary="java">
+      <option name="closed" value="true" />
+      <created>1713434487909</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1713434487910</updated>
+    </task>
+    <task id="LOCAL-00018" summary="java">
+      <option name="closed" value="true" />
+      <created>1713612781387</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1713612781388</updated>
+    </task>
+    <task id="LOCAL-00019" summary="java">
+      <option name="closed" value="true" />
+      <created>1713613034927</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1713613034928</updated>
+    </task>
+    <task id="LOCAL-00020" summary="java">
+      <option name="closed" value="true" />
+      <created>1713616323843</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1713616323844</updated>
+    </task>
+    <task id="LOCAL-00021" summary="java">
+      <option name="closed" value="true" />
+      <created>1713619258138</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1713619258140</updated>
+    </task>
+    <task id="LOCAL-00022" summary="java">
+      <option name="closed" value="true" />
+      <created>1713622112859</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1713622112860</updated>
+    </task>
+    <task id="LOCAL-00023" summary="java">
+      <option name="closed" value="true" />
+      <created>1713626876845</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1713626876845</updated>
+    </task>
+    <task id="LOCAL-00024" summary="java">
+      <option name="closed" value="true" />
+      <created>1713630497876</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1713630497884</updated>
+    </task>
+    <task id="LOCAL-00025" summary="java">
+      <option name="closed" value="true" />
+      <created>1713631780859</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1713631780860</updated>
+    </task>
+    <task id="LOCAL-00026" summary="java">
+      <option name="closed" value="true" />
+      <created>1713668665833</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1713668665833</updated>
+    </task>
+    <task id="LOCAL-00027" summary="java">
+      <option name="closed" value="true" />
+      <created>1713669953548</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1713669953549</updated>
+    </task>
+    <task id="LOCAL-00028" summary="java">
+      <option name="closed" value="true" />
+      <created>1713676841659</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1713676841659</updated>
+    </task>
+    <task id="LOCAL-00029" summary="java">
+      <option name="closed" value="true" />
+      <created>1713677774939</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1713677774940</updated>
+    </task>
+    <task id="LOCAL-00030" summary="java">
+      <option name="closed" value="true" />
+      <created>1713678445602</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1713678445603</updated>
+    </task>
+    <task id="LOCAL-00031" summary="java">
+      <option name="closed" value="true" />
+      <created>1713678869781</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1713678869781</updated>
+    </task>
+    <task id="LOCAL-00032" summary="java">
+      <option name="closed" value="true" />
+      <created>1713694100851</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1713694100851</updated>
+    </task>
+    <task id="LOCAL-00033" summary="java">
+      <option name="closed" value="true" />
+      <created>1713695737255</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1713695737256</updated>
+    </task>
+    <task id="LOCAL-00034" summary="java">
+      <option name="closed" value="true" />
+      <created>1713697835733</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1713697835733</updated>
+    </task>
+    <task id="LOCAL-00035" summary="java">
+      <option name="closed" value="true" />
+      <created>1713890727693</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1713890727694</updated>
+    </task>
+    <task id="LOCAL-00036" summary="java">
+      <option name="closed" value="true" />
+      <created>1714065582253</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1714065582253</updated>
+    </task>
+    <task id="LOCAL-00037" summary="java">
+      <option name="closed" value="true" />
+      <created>1714066629393</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1714066629393</updated>
+    </task>
+    <task id="LOCAL-00038" summary="java">
+      <option name="closed" value="true" />
+      <created>1714304212203</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1714304212204</updated>
+    </task>
+    <task id="LOCAL-00039" summary="java">
+      <option name="closed" value="true" />
+      <created>1714310038381</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1714310038383</updated>
+    </task>
+    <task id="LOCAL-00040" summary="java">
+      <option name="closed" value="true" />
+      <created>1714363460637</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1714363460637</updated>
+    </task>
+    <task id="LOCAL-00041" summary="java">
+      <option name="closed" value="true" />
+      <created>1714364707531</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1714364707531</updated>
+    </task>
+    <task id="LOCAL-00042" summary="java">
+      <option name="closed" value="true" />
+      <created>1714367880754</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1714367880758</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="java" />
+    <option name="LAST_COMMIT_MESSAGE" value="java" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sort/mergeSort.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
