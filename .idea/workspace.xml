@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fffbcd6-afe5-41ef-a5bf-010a00c2b695" name="Changes" comment="java">
-      <change afterPath="$PROJECT_DIR$/src/simple/operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/simple/printName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/simple/sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/simple/table.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_cn.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/simple/fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +97,7 @@
     "Application.sum.executor": "Run",
     "Application.sumOfDigit.executor": "Run",
     "Application.sumOfElements.executor": "Run",
+    "Application.table.executor": "Run",
     "Application.varargs.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -110,13 +108,13 @@
     "settings.editor.selected.configurable": "AtomSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.table">
-    <configuration name="addFloat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.array.addFloat" />
+  <component name="RunManager" selected="Application.fibonacci">
+    <configuration name="fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.simple.fibonacci" />
       <module name="java_cn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.array.*" />
+          <option name="PATTERN" value="src.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.fibonacci" />
         <item itemvalue="Application.table" />
         <item itemvalue="Application.operator" />
         <item itemvalue="Application.sum" />
         <item itemvalue="Application.printName" />
-        <item itemvalue="Application.addFloat" />
       </list>
     </recent_temporary>
   </component>
@@ -531,7 +529,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714367880758</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="java">
+      <option name="closed" value="true" />
+      <created>1720093173299</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1720093173300</updated>
+    </task>
+    <task id="LOCAL-00044" summary="java">
+      <option name="closed" value="true" />
+      <created>1720093204639</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1720093204640</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
