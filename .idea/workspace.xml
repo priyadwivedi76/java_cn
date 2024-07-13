@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fffbcd6-afe5-41ef-a5bf-010a00c2b695" name="Changes" comment="java">
-      <change afterPath="$PROJECT_DIR$/src/simple/fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oops/fractionUse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/fraction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/fractionSolve.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/fractionSolve.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +71,7 @@
     "Application.fibonacci.executor": "Run",
     "Application.fionacci2.executor": "Run",
     "Application.firstIndex.executor": "Run",
+    "Application.fractionUse.executor": "Run",
     "Application.geometricSum.executor": "Run",
     "Application.lastIndex.executor": "Run",
     "Application.mergeSort.executor": "Run",
@@ -108,7 +112,7 @@
     "settings.editor.selected.configurable": "AtomSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.fibonacci">
+  <component name="RunManager" selected="Application.fractionUse">
     <configuration name="fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.simple.fibonacci" />
       <module name="java_cn" />
@@ -122,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="operator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.simple.operator" />
+    <configuration name="fractionUse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.oops.fractionUse" />
       <module name="java_cn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.simple.*" />
+          <option name="PATTERN" value="src.oops.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,8 +139,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="printName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.simple.printName" />
+    <configuration name="operator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.simple.operator" />
       <module name="java_cn" />
       <extension name="coverage">
         <pattern>
@@ -176,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.fractionUse" />
         <item itemvalue="Application.fibonacci" />
         <item itemvalue="Application.table" />
         <item itemvalue="Application.operator" />
         <item itemvalue="Application.sum" />
-        <item itemvalue="Application.printName" />
       </list>
     </recent_temporary>
   </component>
