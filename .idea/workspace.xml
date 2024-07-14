@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fffbcd6-afe5-41ef-a5bf-010a00c2b695" name="Changes" comment="java">
-      <change afterPath="$PROJECT_DIR$/src/oops/fractionUse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oops/fraction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oops/fractionSolve.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oops/fractionSolve.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/fractionUse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oops/fractionUse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,64 +51,64 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.FindIPAddress.executor": "Run",
-    "Application.GuessTheNumber.executor": "Run",
-    "Application.StringtoInteger.executor": "Run",
-    "Application.addFloat.executor": "Run",
-    "Application.allIndex.executor": "Run",
-    "Application.arrange.executor": "Run",
-    "Application.average.executor": "Run",
-    "Application.checkNum.executor": "Run",
-    "Application.checkSorted.executor": "Run",
-    "Application.countZero.executor": "Run",
-    "Application.deleteChar.executor": "Run",
-    "Application.duplicateRemove.executor": "Run",
-    "Application.fibonacci.executor": "Run",
-    "Application.fionacci2.executor": "Run",
-    "Application.firstIndex.executor": "Run",
-    "Application.fractionUse.executor": "Run",
-    "Application.geometricSum.executor": "Run",
-    "Application.lastIndex.executor": "Run",
-    "Application.mergeSort.executor": "Run",
-    "Application.mulltiplication.executor": "Run",
-    "Application.multipliaction.executor": "Run",
-    "Application.multiply.executor": "Run",
-    "Application.numOfDigit.executor": "Run",
-    "Application.operator.executor": "Run",
-    "Application.pairStar.executor": "Run",
-    "Application.palindrome.executor": "Run",
-    "Application.pattern.executor": "Run",
-    "Application.pattern2.executor": "Run",
-    "Application.polynomialUse.executor": "Run",
-    "Application.power.executor": "Run",
-    "Application.practice.executor": "Run",
-    "Application.practise.executor": "Run",
-    "Application.print.executor": "Run",
-    "Application.printName.executor": "Run",
-    "Application.printNum.executor": "Run",
-    "Application.quickSort.executor": "Run",
-    "Application.replaceChar.executor": "Run",
-    "Application.replacePI.executor": "Run",
-    "Application.replaceX.executor": "Run",
-    "Application.rock_paper_scissor.executor": "Debug",
-    "Application.src.recursion.pattern.executor": "Run",
-    "Application.src.recursion.pattern2.executor": "Run",
-    "Application.sum.executor": "Run",
-    "Application.sumOfDigit.executor": "Run",
-    "Application.sumOfElements.executor": "Run",
-    "Application.table.executor": "Run",
-    "Application.varargs.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "AtomSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.FindIPAddress.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GuessTheNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringtoInteger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.addFloat.executor&quot;: &quot;Run&quot;,
+    &quot;Application.allIndex.executor&quot;: &quot;Run&quot;,
+    &quot;Application.arrange.executor&quot;: &quot;Run&quot;,
+    &quot;Application.average.executor&quot;: &quot;Run&quot;,
+    &quot;Application.checkNum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.checkSorted.executor&quot;: &quot;Run&quot;,
+    &quot;Application.countZero.executor&quot;: &quot;Run&quot;,
+    &quot;Application.deleteChar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.duplicateRemove.executor&quot;: &quot;Run&quot;,
+    &quot;Application.fibonacci.executor&quot;: &quot;Run&quot;,
+    &quot;Application.fionacci2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.firstIndex.executor&quot;: &quot;Run&quot;,
+    &quot;Application.fractionUse.executor&quot;: &quot;Run&quot;,
+    &quot;Application.geometricSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lastIndex.executor&quot;: &quot;Run&quot;,
+    &quot;Application.mergeSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.mulltiplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.multipliaction.executor&quot;: &quot;Run&quot;,
+    &quot;Application.multiply.executor&quot;: &quot;Run&quot;,
+    &quot;Application.numOfDigit.executor&quot;: &quot;Run&quot;,
+    &quot;Application.operator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.pairStar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.palindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.pattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.pattern2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.polynomialUse.executor&quot;: &quot;Run&quot;,
+    &quot;Application.power.executor&quot;: &quot;Run&quot;,
+    &quot;Application.practice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.practise.executor&quot;: &quot;Run&quot;,
+    &quot;Application.print.executor&quot;: &quot;Run&quot;,
+    &quot;Application.printName.executor&quot;: &quot;Run&quot;,
+    &quot;Application.printNum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.quickSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.replaceChar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.replacePI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.replaceX.executor&quot;: &quot;Run&quot;,
+    &quot;Application.rock_paper_scissor.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.src.recursion.pattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.src.recursion.pattern2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.sum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.sumOfDigit.executor&quot;: &quot;Run&quot;,
+    &quot;Application.sumOfElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.table.executor&quot;: &quot;Run&quot;,
+    &quot;Application.varargs.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;AtomSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.fractionUse">
     <configuration name="fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.simple.fibonacci" />
@@ -549,7 +546,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720093204640</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="java">
+      <option name="closed" value="true" />
+      <created>1720882582117</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1720882582120</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
