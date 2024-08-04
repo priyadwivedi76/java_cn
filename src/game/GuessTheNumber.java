@@ -18,7 +18,6 @@ class Game {
     public Game() {
         Random ran = new Random();
         comp = ran.nextInt(100);
-        System.out.println(comp);
     }
 
     //check if the number is smaller or greater than the number
@@ -37,7 +36,7 @@ class Game {
                     count++;
                 }
             }else{
-                System.out.print("The number you guessed is correct at:"+count);
+                System.out.print("The number you guessed is correct at:"+count+" and the number is:"+comp);
                 return;
             }
         }
