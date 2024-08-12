@@ -16,7 +16,7 @@ public class linked {
         return n1;
     }
 
-    //printing linkedlist
+    //printing linkedlist method-1
     public static void printList(Node<Integer> head){
         System.out.println(head.data);
         System.out.println(head.next.data);
@@ -25,10 +25,18 @@ public class linked {
         System.out.println(head.next.next.next.next.data);
     }
 
+    //printing linkedList method-2
+    public static void printLinkedList(Node<Integer> head1){
+        while(head1!=null){
+            System.out.println(head1.data);
+            head1=head1.next;
+        }
+    }
+
     //main function
     public static void main(String[] args) {
         Node<Integer> head=createLinkedList(); 
-        printList(head);
+        printLinkedList(head);
     }
 }
 
@@ -36,7 +44,7 @@ public class linked {
 //class to create an individual node
 class Node<T>{
     T data;
-    Node next;
+    Node<T> next;
     public Node(T data){
         this.data=data;
     }
