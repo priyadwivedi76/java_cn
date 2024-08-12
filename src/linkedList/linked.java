@@ -16,16 +16,8 @@ public class linked {
         return n1;
     }
 
-    //printing linkedlist method-1
-    public static void printList(Node<Integer> head){
-        System.out.println(head.data);
-        System.out.println(head.next.data);
-        System.out.println(head.next.next.data);
-        System.out.println(head.next.next.next.data);
-        System.out.println(head.next.next.next.next.data);
-    }
-
-    //printing linkedList method-2
+    
+    //printing linkedList method
     public static void printLinkedList(Node<Integer> head1){
         while(head1!=null){
             System.out.println(head1.data);
