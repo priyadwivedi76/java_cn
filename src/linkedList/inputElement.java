@@ -6,7 +6,7 @@ public class inputElement {
     public static Node<Integer> takeInput(){
         Scanner sc=new Scanner(System.in);
         int data=sc.nextInt();
-        Node<Integer> head=null;
+        Node<Integer> head=null,tail=null;
 
         //data received in linked list if it is other than -1 if we get -1 stop the linkedlist
         while(data != -1){
@@ -14,18 +14,12 @@ public class inputElement {
             if(head == null){
                 //if head is empty put the number recieved into the head node 
                 head=currentNode;
+                tail=currentNode;
             }
             else{
                 //if head is not  empty connect  the next data to the tail to the head
-                Node<Integer> tail=head;
-
-                //check for last node
-                while(tail.next != null){
-                    tail=tail.next;
-                }
-
-                //connect the values recieved
                 tail.next=currentNode;
+                tail=tail.next;
             }
             //take the next data
             data=sc.nextInt();
