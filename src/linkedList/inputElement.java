@@ -27,6 +27,7 @@ public class inputElement {
         return head;
     }
 
+    //second method to printRecursive
     public static void printRecursive(Node<Integer> head){
         if(head==null){
             return;
