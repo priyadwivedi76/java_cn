@@ -27,6 +27,14 @@ public class inputElement {
         return head;
     }
 
+    public static void printRecursive(Node<Integer> head){
+        if(head==null){
+            return;
+        }
+        System.out.print(head.data+" ");
+        printRecursive(head.next);
+    }
+
     public static void printLinkedList(Node<Integer> head){
         while(head !=null){
             System.out.print(head.data+" ");
@@ -37,7 +45,7 @@ public class inputElement {
     public static void main(String[] args){
         System.out.println("Enter the elements of linked list");
         Node<Integer> head=takeInput();
-        printLinkedList(head);
+        printRecursive(head);
     }
 }
    
