@@ -13,7 +13,14 @@ public class insertRecursive {
         printRecursive(head.next);
     }
 
+
+    //insert node recursively
     public static Node<Integer> insertR(Node<Integer> head,int element,int position){
+
+        if(head==null && pos>0){
+            return head;
+        }
+        
         if(position==0){
             Node<Integer> elementNode=new Node<>(element);
             elementNode.next=head;
