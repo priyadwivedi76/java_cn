@@ -1,8 +1,6 @@
 package linkedList;
-
 import java.util.Scanner;
-
-public class appendLastToFirst {
+public class append {
 
     //take input
     public static Node<Integer> takeInput(){
@@ -87,4 +85,5 @@ class Node<T>{
     public Node(T data){
         this.data=data;
     }
+}
 }
