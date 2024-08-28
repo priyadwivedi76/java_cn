@@ -17,7 +17,7 @@ public class insertRecursive {
     //insert node recursively
     public static Node<Integer> insertR(Node<Integer> head,int element,int position){
 
-        if(head==null && pos>0){
+        if(head==null && position>0){
             return head;
         }
         
@@ -61,7 +61,7 @@ public class insertRecursive {
         Node<Integer> head=takeInput();
         printRecursive(head);
         System.out.println("After insertion:");
-        head=insertR(head, 20, 0);
+        head=insertR(head, 20, 1);
         printRecursive(head);
     }
 }
