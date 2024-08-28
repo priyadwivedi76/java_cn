@@ -57,11 +57,17 @@ public class insertRecursive {
     }
     
     public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
         System.out.println("Enter the elements in linkedList");
         Node<Integer> head=takeInput();
         printRecursive(head);
+        System.out.println();
+        System.out.println("Enter the element:");
+        int element=sc.nextInt();
+        System.out.println("Enter the position");
+        int position=sc.nextInt();
         System.out.println("After insertion:");
-        head=insertR(head, 20, 1);
+        head=insertR(head, element, position);
         printRecursive(head);
     }
 }
