@@ -40,12 +40,14 @@ public class reverse {
 
 
     //reverse using  recurssion
-    public static void reverseLinkedList(Node<Integer> head){
-        if(head == null){
-            return;
+    public static Node<Integer> reverseLinkedList(Node<Integer> head){
+        if(head == null || head.next==null){
+            return head;
         }
-        reverseLinkedList(head.next);
-        System.out.print(head.data+" ");
+        Node<Integer> smallHead=reverseLinkedList(head.next);
+        head.next.next=head;
+        head.next=null;
+        return smallHead;
     }
 
     public static void main(String[] args) {
@@ -53,7 +55,8 @@ public class reverse {
         Scanner sc=new Scanner(System.in);
         Node<Integer>  head=takeInput();
         printLinkedList(head);
-        reverseLinkedList(head);
+        Node<Integer> newList=reverseLinkedList(head);
+        printLinkedList(newList);
     }
 }
 //class to create an individual node
