@@ -29,17 +29,28 @@ public class reversePair {
         printRecursive(head.next);
     }
 
-    public static DoubleNode RecursiveBReverse(Node<Integer> head){
+    public static DoubleNode RecursiveBetterReverse(Node<Integer> head){
         DoubleNode ans;
         if(head == null || head.next == null){
             ans=new DoubleNode(head, head);
             return ans;
         }
-        DoubleNode smallHead=RecursiveBReverse(head.next);
-        smallHead.tail.next=head;
+        DoubleNode smallHead=RecursiveBetterReverse(head.next);
+        smallHead.tail.next=head; 
         head.next=null;
         ans=new DoubleNode(smallHead.head, head);
         return ans;
+    }
+
+    public static Node<Integer> RecursiveReverseBest(Node<Integer> head){
+        if(head==null || head.next==null){
+            return head;
+        }
+        Node<Integer> smallAns=RecursiveReverseBest(head.next);
+        Node<Integer> reverseTail=head.next;
+        reverseTail.next=head;
+        head.next=null;
+        return smallAns;
     }
 
     public static void main(String[] args) {
@@ -48,8 +59,8 @@ public class reversePair {
         System.out.println("Element you entered:");
         printRecursive(head);
         System.out.println("The elements after getting reverse is:");
-        DoubleNode ans=RecursiveBReverse(head);
-        printRecursive(ans.head);
+        Node<Integer> newHead=RecursiveReverseBest(head);
+        printRecursive(newHead);
     }
 }
 
