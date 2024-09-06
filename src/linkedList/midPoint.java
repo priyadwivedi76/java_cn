@@ -8,8 +8,8 @@ public class midPoint {
             return head.data;
         }
         Node<Integer> slow=head;
-        Node<Integer> fast=head;
-        while(fast.next !=null){
+        Node<Integer> fast=head.next;
+        while(fast !=null && fast.next !=null){
             slow=slow.next;
             fast=fast.next.next;
         }
