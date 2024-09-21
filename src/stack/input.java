@@ -1,14 +1,18 @@
 package stack;
+import java.util.Scanner;
 
 public class input {
     public static void main(String[] args) throws StackEmptyException,StackFullException{
-        StackUsingArray stack=new StackUsingArray(13);
-        int arr[]={1,2,3,4,5,6,7,8,9,10,11,12};
-
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the size of stack:");
+        int size=sc.nextInt();
+        StackUsingArray stack=new StackUsingArray(size);
+        int arr[]={1,2,3,4,5};
         for(int i=0; i<arr.length; i++){
             stack.push(arr[i]);
         }
 
+        System.out.println("The elements in the stack are:");
         while(!stack.isEmpty()){
             System.out.println(stack.pop());
         }
