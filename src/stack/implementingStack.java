@@ -7,7 +7,7 @@ public class implementingStack {
         stack.push(20);
         stack.pop();
         System.out.println("The size of the stack is:"+stack.size());
-        stack.isEmpty();
+        System.out.println(stack.isEmpty());
     }
 }
 class StackUsingArray{
