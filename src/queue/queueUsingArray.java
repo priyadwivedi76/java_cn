@@ -6,6 +6,9 @@ public class queueUsingArray {
         q.enqueue(10);
         q.enqueue(20);
         q.enqueue(30);
+        q.enqueue(40);
+        q.enqueue(50);
+        q.enqueue(60);
         System.out.println(q.size()); // Output: 3
         q.dequeue();
         System.out.println(q.size());
@@ -28,6 +31,15 @@ class Queue{
         front=-1;
         rear=-1;
     }
+
+    public int[] dynamic(){
+        int[] temp=data;
+        data=new int[temp.length*2];
+        for(int i=0;i<temp.length;i++){
+            data[i]=temp[i];
+        }
+        return data;
+    }
     
     public int size(){
         return size+1;
@@ -41,11 +53,14 @@ class Queue{
         if(front==-1 && rear==-1){
             data[++front]=elem;
             data[++rear]=elem;
-        }else{
-            rear++;
-            data[rear]=elem;
-            size++;
+            return;
         }
+        if(rear==data.length-1){
+            dynamic();
+        }
+        rear++;
+        data[rear]=elem;
+        size++;
     }
     public void dequeue() throws EmptyQueue{
         if(front==-1 && rear==-1){
