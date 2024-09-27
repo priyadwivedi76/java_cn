@@ -10,8 +10,8 @@ public class queueUsingArray {
         q.enqueue(50);
         q.enqueue(60);
         System.out.println(q.size()); // Output: 3
-        q.dequeue();
-        System.out.println(q.size());
+        int deleted=q.dequeue();
+        System.out.println(deleted);
     }
     
 }
@@ -62,13 +62,14 @@ class Queue{
         data[rear]=elem;
         size++;
     }
-    public void dequeue() throws EmptyQueue{
+    public int dequeue() throws EmptyQueue{
         if(front==-1 && rear==-1){
             throw new EmptyQueue();
-        }else{
-           rear--;
-           size--;
         }
+        int temp=data[front];
+        front++;
+        size--;
+        return temp;
     }
     public int front(){
         return data[front];
