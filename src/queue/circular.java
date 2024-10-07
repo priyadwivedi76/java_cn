@@ -1,6 +1,6 @@
 package queue;
 
-public class circularQueue {
+public class circular {
     public static void main(String[] args) throws FullQueue,EmptyQueue {
         int[] arr={10,20,30,40};
         Queue queue = new Queue();

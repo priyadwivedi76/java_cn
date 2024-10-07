@@ -1,6 +1,6 @@
 package queue;
 
-public class queueUsingArray {
+public class UsingArray {
     public static void main(String[] args) throws EmptyQueue{
         Queue q=new Queue();
         q.enqueue(10);

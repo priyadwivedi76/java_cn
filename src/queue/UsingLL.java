@@ -2,7 +2,7 @@ package queue;
 
 import java.util.EmptyStackException;
 
-public class queueUsingLL {
+public class UsingLL {
     public static void main(String[] args) throws EmptyStackException{
         int input[]={3,4,5,1,2};
         Queue<Integer> queue=new Queue<>();

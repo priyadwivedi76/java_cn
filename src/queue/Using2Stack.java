@@ -1,6 +1,6 @@
 package queue;
 import java.util.Stack;
-public class QueueUsing2Stack<T> {
+public class Using2Stack<T> {
     public static void main(String[] args) {
         UsingStack<Integer> usingStack=new UsingStack<Integer>();
         usingStack.enqueue(10);
