@@ -3,10 +3,9 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class input {
-    public static Tree<Integer> takeInput(){
+    public static Tree<Integer> takeInput(Scanner sc){
         int n;
         System.out.println("Enter the node of the tree");
-        Scanner sc=new Scanner(System.in);
 
         //Enter the root node
         n=sc.nextInt();
@@ -20,7 +19,7 @@ public class input {
 
         //Enter the children nodes recursively
         for(int i=0;i<childCount;i++){
-            Tree<Integer> child=takeInput();
+            Tree<Integer> child=takeInput(sc);
             //add the child to the root node
             root.children.add(child);
         }
@@ -43,7 +42,8 @@ public class input {
     }
 
     public static void main(String[] args) {
-        Tree<Integer> root=takeInput();
+        Scanner sc=new Scanner(System.in);
+        Tree<Integer> root=takeInput(sc);
         printTree(root);
     }
 }
