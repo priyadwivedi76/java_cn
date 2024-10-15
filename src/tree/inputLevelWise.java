@@ -46,10 +46,29 @@ public class inputLevelWise {
         }
     }
 
+
+    public static void printLevelWise(Tree<Integer> root) throws EmptyQueue{
+        Queue<Tree<Integer>> PendingNode=new Queue<>();
+        PendingNode.enqueue(root);
+        while(!PendingNode.isEmpty()){
+            try{
+                Tree<Integer> frontNode=PendingNode.dequeue();
+                System.out.print(frontNode.data+":");
+                for(int i=0;i<frontNode.children.size();i++){
+                    System.out.print(frontNode.children.get(i).data+",");
+                    PendingNode.enqueue(frontNode.children.get(i));
+                }
+                System.out.println();
+            }catch(Exception e){
+                throw new EmptyQueue();
+            }
+        }
+    }
+
     public static void main(String[] args) throws EmptyQueue {
         Scanner sc=new Scanner(System.in);
         Tree<Integer> root=inputLevelWise();
-        printTree(root);
+        printLevelWise(root);
     }
     
 }
