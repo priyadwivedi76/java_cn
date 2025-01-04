@@ -1,5 +1,4 @@
 package tree.BinarySearchTree;
-
 import java.util.Scanner;
 
 public class elementBetweenRange {
