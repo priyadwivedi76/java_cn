@@ -41,5 +41,16 @@ public class init {
 
         //key-value pair
         System.out.println("The key-value pair:"+map.entrySet());
+
+        //Transversing all the values
+        for(String key:map.keySet()){
+            System.out.printf("Age of %s is %d\n",key,map.get(key));
+        }
+
+        //Other method of transversing
+        System.out.println("The other way of printing key and value pair is:");
+        for(Map.Entry<String,Integer> entry:map.entrySet()){
+            System.out.printf("Age is %s is %d\n",entry.getKey(),entry.getValue());
+        }
     }
 }
